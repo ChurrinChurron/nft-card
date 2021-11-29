@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="css/final.css">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+</head>
+<body class="container bg-darkbluemain font-out">
+	<div class="grid place-items-center my-6 h-screen">
+		<div class="bg-darkbluecard w-80 rounded-lg p-6 shadow-2xl">
+			<div class="relative" id="nft">
+				<div class="absolute grid place-items-center rounded-lg w-full h-full transition duration-200 ease-in-out hover:bg-cyan opacity-0 hover:opacity-60 cursor-pointer">
+					<img src="images/icon-view.svg" alt="ojo" id="ojo">
+				</div>
+				<img src="images/image-equilibrium.jpg" alt="NFT" class="rounded-lg">
+				</div>
+			
+  			<a href="#" class="inline-block mt-4 text-white font-semibold text-lg tracking-wide transition duration-200 ease-in-out hover:text-cyan">Equilibrium #3429</a>
+			<p class="text-softblue my-4">Our Equilibrium collection promotes balance and calm.</p>
+			<div class="flex justify-between">  
+				<div class="flex">
+					<img src="images/icon-ethereum.svg" >
+					<p class="ml-2 text-cyan font-semibold">0.041 ETH</p>
+				</div>
+				<div class="flex">
+					<img src="images/icon-clock.svg" class="w-5">
+					<p class="ml-2 text-softblue font-semibold">3 days left</p>
+				</div>
+			</div>
+			<hr class="text-darkblueline my-4 h-px">
+  			<div class="flex items-center">
+  				<img src="images/image-avatar.png" alt="user" class="w-10 border-2 border-white rounded-full">
+  				<p class="text-softblue ml-4">Creation of <a href="#" class="text-white transition duration-200 ease-in-out hover:text-cyan">Jules Wyvern</a></p>
+  			</div>
+		</div>
+	</div>
+</body>
+</html>
